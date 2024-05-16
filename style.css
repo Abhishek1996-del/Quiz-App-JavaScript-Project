@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+body{
+    background-color: #54c3ef;
+    color: #fad744;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#container{
+    text-align: center;
+}
+.app-container{
+    display:flex;
+    justify-content: center;
+}
+#head{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#pnpart1{
+    position: relative;
+    background-color:  #2b3252;
+    width:60%;
+    margin: 0px auto;
+    text-align: left;
+    padding:19px 0px 19px 19px
+}
+.pnpara1{
+    font-size:19px
+}
+input{
+    margin-bottom: 19px;
+    block-size: 10px;
+    margin-right: 9px;
+}
+label{
+    font-size:14px;
+}
+hr{
+    background-color: #fad744;
+    width:99%;
+    margin-left: -1%;
+    height: 1px;
+}
+button{
+    border-radius: 5px;
+    background-color: #fad744;
+    height:30px;
+    border: initial;
+    font-size:15px;
+    font-weight: 400;
+}
+#pnbtn{
+    text-align: center;
+    margin:39px 0px 9px;
+    cursor:pointer
+}
+#pnscore{
+    position: absolute;
+    height: 200px;
+    width: 139px;
+    background-color: white;
+    right: 5%;
+    top: 107px;
+    text-align: center;
+    color: black;
+    padding-left: 0px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.pnstick{
+    position:sticky;
+    top:0 ;
+    font-weight : 100px;
+}
+.pnstyle9{
+    width:90px;
+    color: #000000b8
+}
+.pnstyle{
+    width:90px;
+    font-size: 33px;
+    margin-top: 0px;
+}
+
+@media only screen and (min-width: 977px){
+    #pnscore{
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 667px){
+    #pnscore{
+        margin-left: 10px;
+    }
+}
